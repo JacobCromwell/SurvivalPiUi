@@ -1,0 +1,36 @@
+doctype
+
+html
+head
+	title Login Page for Surival Pi UI
+	link(rel="stylesheet", href="../css/login.css")
+
+	// This is a basic jade file. We will use this only as a helper when I forgot how to do something in jade.
+
+body
+	div
+		h1(id="Intro").
+			SurvivalPi
+
+		h3(id="Intro").
+			Here you will be able to login and create articles to help people survive!
+
+	div
+		form(action="action_page.php")
+			div(class="container")
+				label.
+					<b>Username</b>
+				input(type="text", placeholder="Enter Username", name="uname", required)
+
+				label
+					<b>Password</b>
+				input(type="text", placeholder="Enter Password", name="pass", required)
+
+				button(type="submit").
+					Login
+
+				input(type="checkbox", checked="checked", placeholder="Remember me")
+
+		div(class="container")
+			span(class="pass")
+				Forgot<a href='#'>password?</a>

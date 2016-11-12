@@ -1,0 +1,22 @@
+{
+  "name": "survival_pi_ui",
+  "version": "1.0.0",
+  "description": "Web UI for the survivalPi project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobCromwell/SurvivalPiUi.git"
+  },
+  "author": "Jacob Cromwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobCromwell/SurvivalPiUi/issues"
+  },
+  "homepage": "https://github.com/JacobCromwell/SurvivalPiUi#readme",
+  "devDependencies": {
+    "jade": "^1.11.0"
+  }
+}
