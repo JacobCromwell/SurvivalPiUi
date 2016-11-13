@@ -1,0 +1,23 @@
+#header {
+	color: white;
+	border-bottom: 4px groove white;
+}
+
+#minorHeader {
+	color: white;
+	border-color: white;
+	border-bottom: 2px solid;
+}
+
+/*
+wallpapers found at http://wall-papers.info/single/minimalistic-wallpaper/minimalistic-wallpaper-19.html
+*/
+body {
+	background-image: url("../images/minimalistic-wallpaper-19.jpg");
+	background-size: cover;
+}
+
+.mainText {
+	font-size: 20px;
+	color: white;
+}
