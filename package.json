@@ -18,5 +18,10 @@
   "homepage": "https://github.com/JacobCromwell/SurvivalPiUi#readme",
   "devDependencies": {
     "jade": "^1.11.0"
+  },
+  "dependencies": {
+    "mysql": "^2.12.0",
+    "mysql2": "^1.1.1",
+    "sequelize": "^3.25.0"
   }
 }
