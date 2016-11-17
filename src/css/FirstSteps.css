@@ -3,7 +3,7 @@
 	border-bottom: 4px groove white;
 }
 
-#minorHeader {
+.minorHeader {
 	color: white;
 	border-color: white;
 	border-bottom: 2px solid;
@@ -17,7 +17,23 @@ body {
 	background-size: cover;
 }
 
+#mainDiv {
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: #A0C2CF
+}
+
 .mainText {
+	font-size: 20px;
+	color: white;
+}
+
+ul {
+	font-size: 20px;
+	color: white;
+}
+
+p {
 	font-size: 20px;
 	color: white;
 }
